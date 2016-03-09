@@ -75,7 +75,7 @@ public class C6E10PrimeNumbers {
 				if (isPrime(number)){
 					intArray[count]=number;
 					count++;
-					if (count < 50) {
+					if (count < 51) {
 						if (count % NUMBER_OF_PRIMES_PER_LINE == 0){
 							System.out.printf("%-5s\n", number);
 						}
